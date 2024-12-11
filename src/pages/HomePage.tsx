@@ -1,7 +1,9 @@
 import { useState } from "react";
-import Button from "../components/Button";
+import Button from "../components/ButtonComponent";
 import ChartComponent from "../components/charts/ChartComponent";
 import MedianCalculator from "../components/MedianCalculator";
+import Faqs from "../components/Faqs";
+import Promotion from "../components/Promotion";
 
 const HomePage = () => {
   const data = [7.4, 8.2, 10, 12, 15, 18, 28, 35];
@@ -203,6 +205,9 @@ const HomePage = () => {
           </p>
         </div>
       </div>
+
+      <Faqs />
+      <Promotion />
     </div>
   );
 };
