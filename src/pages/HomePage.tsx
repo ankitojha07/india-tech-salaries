@@ -24,7 +24,7 @@ const HomePage = () => {
         <div className="bg-[url('https://example.com/stars-pattern.png')] bg-cover opacity-30"></div>
       </div>
       {/* content  */}
-      <div className="h-full flex flex-col justify-center items-center ">
+      <div className="h-full flex flex-col justify-center items-center px-4">
         <h1 className="text-4xl font-bold text-center sm:text-6xl lg:text-8xl ">
           Salary Insights for the <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-600">
