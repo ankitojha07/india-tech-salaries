@@ -4,6 +4,7 @@ import ChartComponent from "../components/charts/ChartComponent";
 import MedianCalculator from "../components/MedianCalculator";
 import Faqs from "../components/Faqs";
 import Promotion from "../components/Promotion";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   const data = [7.4, 8.2, 10, 12, 15, 18, 28, 35];
@@ -208,6 +209,7 @@ const HomePage = () => {
 
       <Faqs />
       <Promotion />
+      <Footer />
     </div>
   );
 };
