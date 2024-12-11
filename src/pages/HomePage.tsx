@@ -20,9 +20,9 @@ const HomePage = () => {
   return (
     <div className="mt-32">
       {/* Optional: Add stars or particle effects */}
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0">
         <div className="bg-[url('https://example.com/stars-pattern.png')] bg-cover opacity-30"></div>
-      </div>
+      </div> */}
       {/* content  */}
       <div className="h-full flex flex-col justify-center items-center px-4 sm:px-0">
         <h1 className="text-4xl font-bold text-center sm:text-6xl lg:text-8xl ">
